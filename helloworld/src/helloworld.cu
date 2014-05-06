@@ -42,6 +42,7 @@ __global__ void bitreverse(void *data) {
 /**
  * Host function that prepares data array and passes it to the CUDA kernel.
  * KK comment
+ * Made some more changes to comments here and more comments
  */
 int main(void) {
 	void *d = NULL;
